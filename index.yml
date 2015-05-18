@@ -1,17 +1,3 @@
-# This is the main index.
-
-Projects:
-  - id          : default
-    app-id      : 
-    job-id      : 
-    git-url     : 
-    git-path    : 
-    git-branch  :
-    notify-email: 
-
-# Add your job below this line, you can use the 'default' project
-# from the top of this file as a template. All values are required.
-
 #bamachrn
   - id          : default
     app-id      : bamachrn
@@ -27,7 +13,7 @@ Projects:
     job-id      : c7-httpd
     git-url     : https://github.com/kbsingh/CentOS-Dockerfiles
     git-path    : httpd/centos7
-    git-branch  : master 
+    git-branch  : master
     notify-email: cccp.inb@karan.org
 
   - id          : default
@@ -35,7 +21,7 @@ Projects:
     job-id      : c7-tools
     git-url     : https://github.com/kbsingh/CentOS-Dockerfiles
     git-path    : tools/
-    git-branch  : master 
+    git-branch  : master
     notify-email: cccp.inb@karan.org
 
 # vpavlin
@@ -54,3 +40,9 @@ Projects:
     git-path    : dockerfiles/centos/admin-client
     git-branch  : master
     notify-email: vaclav.pavlin@gmail.com
+
+  - id: goern
+    job-id: goern-skydns-atomicapp-1
+    app-id: skydns-atomicapp
+    git-url: https://github.com/goern/skydns-atomicapp
+    git-path: /
