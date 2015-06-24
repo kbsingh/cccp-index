@@ -19,7 +19,7 @@ Quickstart
 ----------
 
  1. Clone this git repo in github.com
- 2. Take the cccp.yml file included in this repo and drop it into the same directory as the nulecule definition for your app
+ 2. Take the cccp.yml file included in this repo and drop it into the same directory as the Nulecule definition for your app
  3. Populate the cccp template
  4. Send a Pull Request to this git repo with your details added into the index file
 
@@ -49,7 +49,7 @@ cccp.yml
 Every Nulecule that we process is required to host a container pipleline control file, called the cccp.yml. You can host it as either .cccp.yml ( and then its just out of the way ), or as cccp.yml. An example of what this file might look like is included in this git repo. Feel free to use that as a template. This file is a standard yaml formated file and includes the following information:
 
  - Job ID : Required: This must match the Job ID that you insert into the index file
- - Nulecule-file: Optional: you can set a custom filename here to be used as the nulecule spec file, by default we expect the file to be called: nulecule
+ - Nulecule-file: Optional: you can set a custom filename here to be used as the Nulecule spec file, by default we expect the file to be called: Nulecule
  - Notify: Optional: This can be an email address or an irc channel on freenode.net where you'd like to be notified of sucess/failures. In the future we will add support for more notification mechanisms.
  - Skip: Optional: You can set this to True, and the pipeline will skip this job, till its re-enabled. Defaults to False
  - Test: Optional: Setting this to False, will skip the entire test process and the build step will be followed by delivery. Defaults to True. You can further qualify which tests you want to run by disabling specific tests as below. At this time we have test_base, that runs on the base centos7 os, on baremetal, and test_vagrant that runs inside a centos7 vagrant box hosted with the libvirt provider.

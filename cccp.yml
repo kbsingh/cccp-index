@@ -1,9 +1,9 @@
-#place this file in your nulecule dir and call it .cccp.yml
+#place this file in your Nulecule dir and call it .cccp.yml
 job-id: 
 
 #the following are optional, can be left blank
 #defaults, where applicable are filled in
-nulecule-file   : nulecule
+nulecule-file   : Nulecule
 notify          :
 skip            : False
 test            : True
