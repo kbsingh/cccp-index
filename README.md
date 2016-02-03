@@ -13,7 +13,10 @@ Amongst other things, one key value of using the pipeline is that it will track 
 
 You can read more about AtomicApp, Container Applications and the Nulecule specification at [https://github.com/projectatomic/nulecule](https://github.com/projectatomic/nulecule)
 
-Examples of what these applications and specifications look like are available at [http://github.com/projectatomic/nulecule/examples](http://github.com/projectatomic/nulecule/examples)
+Examples of what these applications and specifications look like are available at
+
+- [https://github.com/projectatomic/nulecule-library](https://github.com/projectatomic/nulecule-library)
+- [http://github.com/projectatomic/nulecule/examples](http://github.com/projectatomic/nulecule/examples)
 
 Quickstart
 ----------
