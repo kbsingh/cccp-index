@@ -4,10 +4,10 @@ job-id:
 #the following are optional, can be left blank
 #defaults, where applicable are filled in
 nulecule-file   : nulecule
-notify          :
-skip            : False
-test            : True
+test-skip       : True
 test-script     :
+build-script    :
+delivery-script :
 docker-index    : True
 custom-delivery : False
 local-delivery  : True
