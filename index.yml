@@ -12,8 +12,8 @@ Projects:
 # Add your job below this line, you can use the 'default' project
 # from the top of this file as a template. All values are required.
   - id          : default
-    app-id      : cccp-python
-    job-id      : cccp-python
+    app-id      : bamachrn-python
+    job-id      : python
     git-url     : https://github.com/bamachrn/cccp-python
     git-path    : /
     git-branch  : master
