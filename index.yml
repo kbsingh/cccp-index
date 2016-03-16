@@ -3,10 +3,18 @@
 Projects:
   - id          : default
     app-id      : 
-    job-id      :
+    job-id      : 
     git-url     : 
-    git-path    :
+    git-path    : 
     git-branch  :
+    notify-email: 
 
 # Add your job below this line, you can use the 'default' project
 # from the top of this file as a template. All values are required.
+  - id          : default
+    app-id      : cccp-python
+    job-id      : cccp-python
+    git-url     : https://github.com/bamachrn/cccp-python
+    git-path    : /
+    git-branch  : master
+    notify-email: bamachrn@gmail.com
