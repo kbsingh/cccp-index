@@ -18,3 +18,12 @@ Projects:
     git-path    : /
     git-branch  : release
     notify-email: bamachrn@gmail.com
+
+# kbsingh
+  - id          : default
+    app-id      : kbsingh
+    job-id      : c7-httpd
+    git-url     : https://github.com/kbsingh/CentOS-Dockerfiles
+    git-path    : httpd/centos7
+    git-branch  : release
+    notify-email: cccp.inb@karan.org
