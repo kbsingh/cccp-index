@@ -28,6 +28,14 @@ Projects:
     git-branch  : master 
     notify-email: cccp.inb@karan.org
 
+  - id          : default
+    app-id      : kbsingh
+    job-id      : c7-tools
+    git-url     : https://github.com/kbsingh/CentOS-Dockerfiles
+    git-path    : tools/
+    git-branch  : master 
+    notify-email: cccp.inb@karan.org
+
 # vpavlin
   - id          : default
     app-id      : vpavlin
