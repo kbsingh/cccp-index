@@ -27,3 +27,12 @@ Projects:
     git-path    : httpd/centos7
     git-branch  : release
     notify-email: cccp.inb@karan.org
+
+# vpavlin
+  - id          : default
+    app-id      : vpavlin
+    job-id      : ahoj_svete
+    git-url     : https://github.com/vpavlin/ahoj_svete
+    git-path    : /
+    git-branch  : master
+    notify-email: vaclav.pavlin@gmail.com
