@@ -18,7 +18,7 @@ Projects:
     job-id      : python
     git-url     : https://github.com/bamachrn/cccp-python
     git-path    : /
-    git-branch  : release
+    git-branch  : master
     notify-email: bamachrn@gmail.com
 
 # kbsingh
