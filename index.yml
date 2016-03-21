@@ -46,3 +46,11 @@ Projects:
     git-path    : /
     git-branch  : master
     notify-email: vaclav.pavlin@gmail.com
+
+  - id          : default
+    app-id      : pulp
+    job-id      : admin-client
+    git-url     : https://github.com/vpavlin/pulp_packaging
+    git-path    : dockerfiles/centos/admin-client
+    git-branch  : master
+    notify-email: vaclav.pavlin@gmail.com
