@@ -46,3 +46,4 @@
     app-id: skydns-atomicapp
     git-url: https://github.com/goern/skydns-atomicapp
     git-path: /
+    notify-email: cgoern@gmail.com
