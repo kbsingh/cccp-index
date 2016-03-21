@@ -1,3 +1,17 @@
+# This is the main index.
+
+Projects:
+  - id          : default
+    app-id      : 
+    job-id      : 
+    git-url     : 
+    git-path    : 
+    git-branch  :
+    notify-email: 
+
+# Add your job below this line, you can use the 'default' project
+# from the top of this file as a template. All values are required.
+
 #bamachrn
   - id          : default
     app-id      : bamachrn
@@ -41,6 +55,7 @@
     git-branch  : master
     notify-email: vaclav.pavlin@gmail.com
 
+#cgoern
   - id: goern
     job-id: goern-skydns-atomicapp-1
     app-id: skydns-atomicapp
