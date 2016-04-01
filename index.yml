@@ -64,380 +64,379 @@ Projects:
     git-branch: master
     notify-email: cgoern@gmail.com
 
-#Centos Dockerfiles test
-  - id		: default
-    app-id	: centos
-    job-id	: c6-bind
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: bind/centos6/
-    git-branch	: master
+#Centos Dockerfiles testrun
+  - id          : default
+    app-id      : centos
+    job-id      : c6-bind
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : bind/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-bind
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: bind/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-bind
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : bind/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-couchdb
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: couchdb/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-couchdb
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : couchdb/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-couchdb
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: couchdb/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-couchdb
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : couchdb/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-Django
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: Django/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-Django
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : Django/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-Django
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: Django/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-Django
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : Django/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-earthquake
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: earthquake/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-earthquake
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : earthquake/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-earthquake
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: earthquake/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-earthquake
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : earthquake/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-etherpad
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: etherpad/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-etherpad
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : etherpad/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-firefox
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: firefox/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-firefox
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : firefox/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-firefox
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: firefox/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-firefox
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : firefox/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-freeipa
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: freeipa/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-freeipa
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : freeipa/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-httpd
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: httpd/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-httpd
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : httpd/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-httpd
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: httpd/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-httpd
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : httpd/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-lighttpd
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: lighttpd/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-lighttpd
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : lighttpd/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-lighttpd
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: lighttpd/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-lighttpd
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : lighttpd/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-mariadb
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: mariadb/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-mariadb
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : mariadb/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-memcached
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: memcached/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-memcached
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : memcached/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-memcached
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: memcached/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-memcached
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : memcached/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-mongodb
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: mongodb/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-mongodb
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : mongodb/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-mongodb
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: mongodb/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-mongodb
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : mongodb/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-mysql
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: mysql/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-mysql
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : mysql/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-mysql55
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: mysql55/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-mysql55
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : mysql55/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-nginx
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: nginx/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-nginx
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : nginx/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-nginx
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: nginx/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-nginx
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : nginx/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-nodejs
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: nodejs/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-nodejs
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : nodejs/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-owncloud
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: owncloud/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-owncloud
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : owncloud/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-owncloud
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: owncloud/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-owncloud
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : owncloud/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-postgres
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: postgres/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-postgres
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : postgres/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-postgres
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: postgres/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-postgres
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : postgres/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-python
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: python/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-python
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : python/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id          : default      
-    app-id	: centos
-    job-id	: c7-python
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: python/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-python
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : python/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-qpid
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: qpid/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-qpid
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : qpid/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-qpid
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: qpid/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-qpid
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : qpid/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-rabbitmq
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: rabbitmq/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-rabbitmq
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : rabbitmq/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-rabbitmq
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: rabbitmq/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-rabbitmq
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : rabbitmq/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-redis
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: redis/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-redis
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : redis/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-redis
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: redis/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-redis
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : redis/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-registry
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: registry/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-registry
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : registry/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-registry
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: registry/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-registry
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : registry/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-registry-v2
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: registry-v2/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-registry-v2
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : registry-v2/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-ssh
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: ssh/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-ssh
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : ssh/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-ssh
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: ssh/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-ssh
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : ssh/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-tools
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: tools/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-tools
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : tools/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-wildfly
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: wildfly/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-wildfly
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : wildfly/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c6-wordpress
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: wordpress/centos6/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c6-wordpress
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : wordpress/centos6/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
-  - id		: default
-    app-id	: centos
-    job-id	: c7-wordpress
-    git-url	: https://github.com/mohammedzee1000/CentOS-Dockerfiles
-    git-path	: wordpress/centos7/
-    git-branch	: master
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-wordpress
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : wordpress/centos7/
+    git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    
