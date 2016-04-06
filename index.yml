@@ -441,7 +441,7 @@ Projects:
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
 
-- id          : default
+  - id          : default
     app-id      : kbsingh
     job-id      : centos7-web-test
     git-url     : https://github.com/kbsingh/centos7-web-test
