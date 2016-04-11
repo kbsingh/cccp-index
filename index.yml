@@ -447,4 +447,149 @@ Projects:
     git-url     : https://github.com/kbsingh/centos7-web-test
     git-path    : /
     git-branch  : master
-    notify-email: bamachrn@gmail.com 
+    notify-email: bamachrn@gmail.com
+
+# Openshift Dockerfile testrun 
+  - id          : default
+    app-id      : openshiftorigin
+    job-id      : oco-base
+    git-url     : https://github.com/mohammedzee1000/origin
+    git-path    : images/base/
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+
+  - id          : default
+    app-id      : openshiftorigin
+    job-id      : oco-builder-docker
+    git-url     : https://github.com/mohammedzee1000/origin
+    git-path    : images/builder/docker/
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+
+  - id          : default
+    app-id      : openshiftorigin
+    job-id      : oco-deployer
+    git-url     : https://github.com/mohammedzee1000/origin
+    git-path    : images/deployer/
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+
+  - id          : default
+    app-id      : openshiftorigin
+    job-id      : oco-dind
+    git-url     : https://github.com/mohammedzee1000/origin
+    git-path    : images/dind/
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+
+  - id          : default
+    app-id      : openshiftorigin
+    job-id      : oco-dockerregistry
+    git-url     : https://github.com/mohammedzee1000/origin
+    git-path    : images/dockerregistry/
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+
+  - id          : default
+    app-id      : openshiftorigin
+    job-id      : oco-ipfailover-keepalived
+    git-url     : https://github.com/mohammedzee1000/origin
+    git-path    : images/ipfailover/keepalived/
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+
+  - id          : default
+    app-id      : openshiftorigin
+    job-id      : oco-node
+    git-url     : https://github.com/mohammedzee1000/origin
+    git-path    : images/node/
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+
+  - id          : default
+    app-id      : openshiftorigin
+    job-id      : oco-openldap
+    git-url     : https://github.com/mohammedzee1000/origin
+    git-path    : images/openldap/
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+
+  - id          : default
+    app-id      : openshiftorigin
+    job-id      : oco-openvswitch
+    git-url     : https://github.com/mohammedzee1000/origin
+    git-path    : images/openvswitch/
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+
+  - id          : default
+    app-id      : openshiftorigin
+    job-id      : oco-origin
+    git-url     : https://github.com/mohammedzee1000/origin
+    git-path    : images/origin/
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+
+  - id          : default
+    app-id      : openshiftorigin
+    job-id      : oco-pod
+    git-url     : https://github.com/mohammedzee1000/origin
+    git-path    : images/pod/
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+
+  - id          : default
+    app-id      : openshiftorigin
+    job-id      : oco-recycler
+    git-url     : https://github.com/mohammedzee1000/origin
+    git-path    : images/recycler/
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+
+  - id          : default
+    app-id      : openshiftorigin
+    job-id      : oco-release
+    git-url     : https://github.com/mohammedzee1000/origin
+    git-path    : images/release/
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+
+  - id          : default
+    app-id      : openshiftorigin
+    job-id      : oco-router-egress
+    git-url     : https://github.com/mohammedzee1000/origin
+    git-path    : images/router/egress/
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+
+  - id          : default
+    app-id      : openshiftorigin
+    job-id      : oco-router-f5
+    git-url     : https://github.com/mohammedzee1000/origin
+    git-path    : images/router/f5/
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+
+  - id          : default
+    app-id      : openshiftorigin
+    job-id      : oco-router-haproxy
+    git-url     : https://github.com/mohammedzee1000/origin
+    git-path    : images/router/haproxy/
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+
+  - id          : default
+    app-id      : openshiftorigin
+    job-id      : oco-router-haproxy-base
+    git-url     : https://github.com/mohammedzee1000/origin
+    git-path    : images/router/haproxy-base/
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+
+  - id          : default
+    app-id      : openshiftorigin
+    job-id      : oco-simple-authenticated-registry
+    git-url     : https://github.com/mohammedzee1000/origin
+    git-path    : images/simple-authenticated-registry/
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
