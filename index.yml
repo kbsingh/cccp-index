@@ -593,3 +593,19 @@ Projects:
     git-path    : images/simple-authenticated-registry/
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-kubernetes-cockpit
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : kubernetes-centos/centos7/
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+
+  - id          : default
+    app-id      : centos
+    job-id      : c7-atomic-registry-quickstart
+    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-path    : centos-atomic-registry-quickstart/centos7/
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
