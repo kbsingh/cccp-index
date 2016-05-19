@@ -66,7 +66,7 @@ Projects:
 
 #Centos Dockerfiles testrun
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-bind
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : bind/centos6/
@@ -74,7 +74,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-bind
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : bind/centos7/
@@ -82,7 +82,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-couchdb
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : couchdb/centos6/
@@ -90,7 +90,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-couchdb
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : couchdb/centos7/
@@ -98,7 +98,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-Django
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : Django/centos6/
@@ -106,7 +106,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-Django
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : Django/centos7/
@@ -114,7 +114,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-earthquake
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : earthquake/centos6/
@@ -122,7 +122,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-earthquake
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : earthquake/centos7/
@@ -130,7 +130,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-etherpad
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : etherpad/centos7/
@@ -138,7 +138,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-firefox
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : firefox/centos6/
@@ -146,7 +146,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-firefox
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : firefox/centos7/
@@ -154,7 +154,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-freeipa
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : freeipa/centos7/
@@ -162,7 +162,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-httpd
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : httpd/centos6/
@@ -170,7 +170,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-httpd
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : httpd/centos7/
@@ -178,7 +178,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-lighttpd
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : lighttpd/centos6/
@@ -186,7 +186,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-lighttpd
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : lighttpd/centos7/
@@ -194,7 +194,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-mariadb
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : mariadb/centos7/
@@ -202,7 +202,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-memcached
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : memcached/centos6/
@@ -210,7 +210,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-memcached
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : memcached/centos7/
@@ -218,7 +218,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-mongodb
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : mongodb/centos6/
@@ -226,7 +226,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-mongodb
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : mongodb/centos7/
@@ -234,7 +234,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-mysql
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : mysql/centos6/
@@ -242,7 +242,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-mysql55
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : mysql55/centos6/
@@ -250,7 +250,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-nginx
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : nginx/centos6/
@@ -258,7 +258,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-nginx
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : nginx/centos7/
@@ -266,7 +266,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-nodejs
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : nodejs/centos6/
@@ -274,7 +274,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-owncloud
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : owncloud/centos6/
@@ -282,7 +282,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-owncloud
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : owncloud/centos7/
@@ -290,7 +290,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-postgres
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : postgres/centos6/
@@ -298,7 +298,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-postgres
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : postgres/centos7/
@@ -306,7 +306,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-python
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : python/centos6/
@@ -314,7 +314,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-python
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : python/centos7/
@@ -322,7 +322,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-qpid
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : qpid/centos6/
@@ -330,7 +330,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-qpid
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : qpid/centos7/
@@ -338,7 +338,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-rabbitmq
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : rabbitmq/centos6/
@@ -346,7 +346,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-rabbitmq
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : rabbitmq/centos7/
@@ -354,7 +354,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-redis
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : redis/centos6/
@@ -362,7 +362,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-redis
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : redis/centos7/
@@ -370,7 +370,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-registry
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : registry/centos6/
@@ -378,7 +378,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-registry
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : registry/centos7/
@@ -386,7 +386,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-registry-v2
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : registry-v2/centos7/
@@ -394,7 +394,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-ssh
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : ssh/centos6/
@@ -402,7 +402,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-ssh
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : ssh/centos7/
@@ -410,7 +410,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-tools
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : tools/centos7/
@@ -418,7 +418,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-wildfly
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : wildfly/centos7/
@@ -426,7 +426,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c6-wordpress
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : wordpress/centos6/
@@ -434,7 +434,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-wordpress
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : wordpress/centos7/
@@ -451,7 +451,7 @@ Projects:
 
 # Openshift Dockerfile testrun 
   - id          : default
-    app-id      : openshiftorigin
+    app-id      : mohammedzee1000
     job-id      : oco-base
     git-url     : https://github.com/mohammedzee1000/origin
     git-path    : images/base/
@@ -459,7 +459,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : openshiftorigin
+    app-id      : mohammedzee1000
     job-id      : oco-builder-docker
     git-url     : https://github.com/mohammedzee1000/origin
     git-path    : images/builder/docker/
@@ -467,7 +467,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : openshiftorigin
+    app-id      : mohammedzee1000
     job-id      : oco-deployer
     git-url     : https://github.com/mohammedzee1000/origin
     git-path    : images/deployer/
@@ -475,7 +475,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : openshiftorigin
+    app-id      : mohammedzee1000
     job-id      : oco-dind
     git-url     : https://github.com/mohammedzee1000/origin
     git-path    : images/dind/
@@ -483,7 +483,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : openshiftorigin
+    app-id      : mohammedzee1000
     job-id      : oco-dockerregistry
     git-url     : https://github.com/mohammedzee1000/origin
     git-path    : images/dockerregistry/
@@ -491,7 +491,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : openshiftorigin
+    app-id      : mohammedzee1000
     job-id      : oco-ipfailover-keepalived
     git-url     : https://github.com/mohammedzee1000/origin
     git-path    : images/ipfailover/keepalived/
@@ -499,7 +499,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : openshiftorigin
+    app-id      : mohammedzee1000
     job-id      : oco-node
     git-url     : https://github.com/mohammedzee1000/origin
     git-path    : images/node/
@@ -507,7 +507,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : openshiftorigin
+    app-id      : mohammedzee1000
     job-id      : oco-openldap
     git-url     : https://github.com/mohammedzee1000/origin
     git-path    : images/openldap/
@@ -515,7 +515,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : openshiftorigin
+    app-id      : mohammedzee1000
     job-id      : oco-openvswitch
     git-url     : https://github.com/mohammedzee1000/origin
     git-path    : images/openvswitch/
@@ -523,7 +523,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : openshiftorigin
+    app-id      : mohammedzee1000
     job-id      : oco-origin
     git-url     : https://github.com/mohammedzee1000/origin
     git-path    : images/origin/
@@ -531,7 +531,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : openshiftorigin
+    app-id      : mohammedzee1000
     job-id      : oco-pod
     git-url     : https://github.com/mohammedzee1000/origin
     git-path    : images/pod/
@@ -539,7 +539,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : openshiftorigin
+    app-id      : mohammedzee1000
     job-id      : oco-recycler
     git-url     : https://github.com/mohammedzee1000/origin
     git-path    : images/recycler/
@@ -547,7 +547,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : openshiftorigin
+    app-id      : mohammedzee1000
     job-id      : oco-release
     git-url     : https://github.com/mohammedzee1000/origin
     git-path    : images/release/
@@ -555,7 +555,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : openshiftorigin
+    app-id      : mohammedzee1000
     job-id      : oco-router-egress
     git-url     : https://github.com/mohammedzee1000/origin
     git-path    : images/router/egress/
@@ -563,7 +563,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : openshiftorigin
+    app-id      : mohammedzee1000
     job-id      : oco-router-f5
     git-url     : https://github.com/mohammedzee1000/origin
     git-path    : images/router/f5/
@@ -571,7 +571,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : openshiftorigin
+    app-id      : mohammedzee1000
     job-id      : oco-router-haproxy
     git-url     : https://github.com/mohammedzee1000/origin
     git-path    : images/router/haproxy/
@@ -579,7 +579,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : openshiftorigin
+    app-id      : mohammedzee1000
     job-id      : oco-router-haproxy-base
     git-url     : https://github.com/mohammedzee1000/origin
     git-path    : images/router/haproxy-base/
@@ -587,7 +587,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : openshiftorigin
+    app-id      : mohammedzee1000
     job-id      : oco-simple-authenticated-registry
     git-url     : https://github.com/mohammedzee1000/origin
     git-path    : images/simple-authenticated-registry/
@@ -595,7 +595,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-kubernetes-cockpit
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : kubernetes-centos/centos7/
@@ -603,7 +603,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
 
   - id          : default
-    app-id      : centos
+    app-id      : mohammedzee1000
     job-id      : c7-atomic-registry-quickstart
     git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : centos-atomic-registry-quickstart/centos7/
