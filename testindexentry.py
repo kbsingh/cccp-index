@@ -8,6 +8,7 @@ import shutil
 
 class TestConsts:
     testdir = os.path.abspath("./cccp-index-test")
+    indxfile = os.path.abspath("./index.yml")
 
     if not os.path.exists(testdir):
         os.mkdir(testdir, stat.S_IRWXU | stat.S_IRWXG | stat.S_IRWXO)
@@ -23,21 +24,25 @@ class StaticHandler:
     @staticmethod
     def print_msg(messagetype, msg, testentry):
 
-        pre = ""
+        pre_pmsg = ""
+        pre_fmsg = ""
 
         if messagetype == MessageType.error:
-            pre = "\n \033[1;31m[ERROR]\033[0m "
+            pre_pmsg = "\n \033[1;31m[ERROR]\033[0m "
+            pre_fmsg = "ERROR\t"
 
         elif messagetype == MessageType.info:
-            pre = "\n \033[1;33m[INFO]\033[0m "
+            pre_pmsg = "\n \033[1;33m[INFO]\033[0m "
+            pre_fmsg = "INFO\t"
 
         elif messagetype == MessageType.success:
-            pre = "\n \033[1;32m[SUCCESS]\033[0m "
+            pre_pmsg = "\n \033[1;32m[SUCCESS]\033[0m "
+            pre_fmsg = "SUCCESS\t"
 
-        print pre + msg
+        print pre_pmsg + msg
         print
 
-        testentry.write_info(msg)
+        testentry.write_info(pre_fmsg + msg)
 
         return
 
@@ -59,7 +64,10 @@ class TestEntry:
 
     def __init__(self, tid, appid, jobid, giturl, gitpath, gitbranch, notifyemail):
 
-        fnm = tid + "_" + appid + "_" + "jobid"
+        if not gitpath.startswith("/"):
+            gitpath = "/" + gitpath
+
+        fnm = tid + "_" + appid + "_" + jobid
         self._testLocation = TestConsts.testdir + "/" + fnm
 
         if os.path.exists(self._testLocation):
@@ -77,6 +85,11 @@ class TestEntry:
         self._gitBranch = gitbranch
         self._notifyEmail = notifyemail
         self._git_Data_Location = self._testLocation + "/" + "thegit"
+
+        self._cccp_test_dir = self._git_Data_Location + self._gitpath
+
+        if not self._cccp_test_dir.endswith("/"):
+            self._cccp_test_dir += "/"
 
         return
 
@@ -119,7 +132,7 @@ class TestEntry:
 
             cmd = ["git", "branch", self._gitBranch]
 
-            if StaticHandler.execcmd(cmd):
+            if StaticHandler.execcmd(cmd) or self._gitBranch == "master":
                 cmd = ["git", "checkout", self._gitBranch]
                 call(cmd)
                 StaticHandler.print_msg(MessageType.success, "Checked out requested branch", self)
@@ -137,17 +150,48 @@ class TestEntry:
         return success
 
     def _test_cccp_yaml(self):
+        """Run sanity checks on the cccp.yml file"""
 
-        cccpyamlfilepath = self._git_Data_Location + self._gitpath + "cccp.yml"
-        print
+        # FIXME : Finish this method
+
+        # Map location of the cccp.yml file
+        cccpyamlfilepath = ""
 
         StaticHandler.print_msg(MessageType.info, "Checking if a cccp.yml file exists at specified location", self)
 
-        if not os.path.exists(cccpyamlfilepath):
-            StaticHandler.print_msg(MessageType.error, "Missing cccp.yml file.", self)
+        # Check if the cccp.yml file exists
+        pthexists = False
+        for itm in ["cccp.yml", ".cccp.yml", "cccp.yaml", ".cccp.yaml"]:
+
+            cccpyamlfilepath = self._cccp_test_dir + itm
+
+            if os.path.exists(cccpyamlfilepath):
+                pthexists = True
+                break
+
+        if not pthexists:
+            StaticHandler.print_msg(MessageType.error, "Missing cccp.yml file, skipping...", self)
             return
 
         StaticHandler.print_msg(MessageType.success, "Found cccp.yml file", self)
+
+        # Check if the job id supplied matches with job id in cccp.yml
+        with open(cccpyamlfilepath) as cccpyamlfile:
+            cccpyaml = yaml.load(cccpyamlfile)
+
+        StaticHandler.print_msg(MessageType.info, "Matching job id with one in cccp.yml", self)
+
+#        print str.format("index jid : {0}\ncccp jid : {1}", self._jobid, cccpyaml["job-id"])
+
+        if self._jobid == cccpyaml["job-id"]:
+
+            StaticHandler.print_msg(MessageType.success, "Job id matched, continuing...", self)
+
+        else:
+
+            StaticHandler.print_msg(MessageType.error, "Job Ids dont match, skipping...", self)
+            return
+
 
 
         return
@@ -161,12 +205,41 @@ class TestEntry:
 
         return
 
+class Tester:
+
+    def __init__(self):
+
+        return
+
+    def run(self):
+
+        if os.path.exists(TestConsts.indxfile):
+
+            with open(TestConsts.indxfile) as indexfile:
+                indexentries = yaml.load(indexfile)
+
+            i = 0
+
+            for item in indexentries["Projects"]:
+
+                if i > 0:
+
+                    TestEntry(item["id"], item["app-id"], item["job-id"], item["git-url"], item["git-path"], item["git-branch"], item["notify-email"]).run_tests()
+                    print "\nNext Entry....\n"
+
+                i += 1
+
+        return
+
+
 def mainf():
-    t = TestEntry("a", "b", "c", "heel", "tata", "master", "hello@hello.com")
-    t.run_tests()
-    t = TestEntry("default", "bamachrn", "python", "https://github.com/bamachrn/cccp-python", "/", "bamachrn-test", "bamachrn@gmail.com")
-    t.run_tests()
-    # T
+
+    if len(sys.argv) <= 1:
+        tester = Tester()
+        tester.run()
+
+    print "\nTests completed\n"
+    print "You can view the test results at " + TestConsts.testdir + "/" + "[id]_[appid]_[jobid]/test.info\n"
 
 if __name__ == '__main__':
     mainf()
