@@ -2,12 +2,12 @@
 
 Projects:
   - id          : default
-    app-id      : 
-    job-id      : 
-    git-url     : 
-    git-path    : 
+    app-id      :
+    job-id      :
+    git-url     :
+    git-path    :
     git-branch  :
-    notify-email: 
+    notify-email:
 
 # Add your job below this line, you can use the 'default' project
 # from the top of this file as a template. All values are required.
@@ -54,15 +54,6 @@ Projects:
     git-path    : dockerfiles/centos/admin-client
     git-branch  : master
     notify-email: vaclav.pavlin@gmail.com
-
-#cgoern
-  - id: goern
-    job-id: goern-skydns-atomicapp-1
-    app-id: skydns-atomicapp
-    git-url: https://github.com/goern/skydns-atomicapp
-    git-path: /
-    git-branch: master
-    notify-email: cgoern@gmail.com
 
 #Centos Dockerfiles testrun
   - id          : default
@@ -449,7 +440,7 @@ Projects:
     git-branch  : master
     notify-email: bamachrn@gmail.com
 
-# Openshift Dockerfile testrun 
+# Openshift Dockerfile testrun
   - id          : default
     app-id      : mohammedzee1000
     job-id      : oco-base
