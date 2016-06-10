@@ -25,7 +25,7 @@ Projects:
     app-id      : mohammedzee1000
     job-id      : oco-builder-docker
     git-url     : https://github.com/mohammedzee1000/origin
-    git-path    : images/builder/docker/
+    git-path    : images/builder/docker/docker-builder
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
 
