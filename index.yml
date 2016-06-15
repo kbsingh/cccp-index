@@ -8,7 +8,7 @@ Projects:
     git-path    :
     git-branch  :
     notify-email:
-    build-after : 
+    build-after : null 
 
 # Add your job below this line, you can use the 'default' project
 # from the top of this file as a template. All values are required.
