@@ -8,7 +8,7 @@ Projects:
     git-path    :
     git-branch  :
     notify-email:
-    build-after : null 
+    depends-on  : null 
 
 # Add your job below this line, you can use the 'default' project
 # from the top of this file as a template. All values are required.
@@ -20,7 +20,7 @@ Projects:
     git-path    : kubernetes-centos/centos7/
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    build-after : null
+    depends-on  : null
 
   - id          : 2
     app-id      : atomic-registry
@@ -29,4 +29,4 @@ Projects:
     git-path    : centos-atomic-registry-quickstart/centos7/
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-    build-after : null
+    depends-on  : null
