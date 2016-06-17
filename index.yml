@@ -16,7 +16,7 @@ Projects:
   - id          : 1
     app-id      : centos
     job-id      : c7-cockpit-kubernetes
-    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-url     : git://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : kubernetes-centos/centos7/
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
@@ -25,7 +25,7 @@ Projects:
   - id          : 2
     app-id      : atomic-registry
     job-id      : c7-atomic-registry-quickstart
-    git-url     : https://github.com/mohammedzee1000/CentOS-Dockerfiles
+    git-url     : git://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : centos-atomic-registry-quickstart/centos7/
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
