@@ -208,7 +208,7 @@ Projects:
         - 7
 
 # Atomic registry 
-  - id          : 2
+  - id          : 19
     app-id      : atomic-registry
     job-id      : c7-atomic-registry-quickstart
     git-url     : git://github.com/mohammedzee1000/CentOS-Dockerfiles
