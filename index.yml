@@ -43,7 +43,7 @@ Projects:
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
-        - 2
+        - openshift/origin-base
 
   - id          : 4
     app-id      : openshift
@@ -53,7 +53,7 @@ Projects:
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
-        - 2
+        - openshift/origin-base
 
 # * Helper Images with no reliance
 
@@ -85,7 +85,7 @@ Projects:
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
-        - 2
+        - openshift/origin-base
 
   - id          : 8
     app-id      : openshift
@@ -95,8 +95,8 @@ Projects:
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
-        - 2
-        - 3
+        - openshift/origin-base
+        - openshift/origin-haproxy-router-base
 
   - id          : 9
     app-id      : openshift
@@ -106,8 +106,8 @@ Projects:
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
-        - 2
-        - 7
+        - openshift/origin-base
+        - openshift/origin
 
   - id          : 10
     app-id      : openshift
@@ -117,7 +117,7 @@ Projects:
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
-        - 2
+        - openshift/origin-base
 
   - id          : 11
     app-id      : openshift
@@ -127,7 +127,7 @@ Projects:
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
-        - 2
+        - openshift/origin-base
 
   - id          : 12
     app-id      : openshift
@@ -137,7 +137,7 @@ Projects:
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
-        - 2
+        - openshift/origin-base
 
 # Relies on openshift origin
 
@@ -149,8 +149,8 @@ Projects:
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
-        - 2
-        - 7
+        - openshift/origin-base
+        - openshift/origin
 
   - id          : 14
     app-id      : openshift
@@ -160,8 +160,8 @@ Projects:
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
-        - 2
-        - 7
+        - openshift/origin-base
+        - openshift/origin
 
   - id          : 15
     app-id      : openshift
@@ -171,8 +171,8 @@ Projects:
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
-        - 2
-        - 7
+        - openshift/origin-base
+        - openshift/origin
 
   - id          : 16
     app-id      : openshift
@@ -182,8 +182,8 @@ Projects:
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
-        - 2
-        - 7
+        - openshift/origin-base
+        - openshift/origin
 
   - id          : 17
     app-id      : openshift
@@ -193,8 +193,8 @@ Projects:
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
-        - 2
-        - 7
+        - openshift/origin-base
+        - openshift/origin
 
   - id          : 18
     app-id      : openshift
@@ -204,8 +204,8 @@ Projects:
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
-        - 2
-        - 7
+        - openshift/origin-base
+        - openshift/origin
 
 # Atomic registry 
   - id          : 19
@@ -216,6 +216,6 @@ Projects:
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
-        - 2
-        - 5
-        - 7
+        - openshift/origin-base
+        - openshift/origin-pod
+        - openshift/origin
