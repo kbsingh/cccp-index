@@ -22,7 +22,6 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : null
 
-<<<<<<< HEAD
 # Openshift Images
 
 # * Base Images
@@ -210,17 +209,12 @@ Projects:
 
 # Atomic registry 
   - id          : 19
-=======
-  - id          : 2
->>>>>>> upstream/master
     app-id      : atomic-registry
     job-id      : c7-atomic-registry-quickstart
     git-url     : git://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : centos-atomic-registry-quickstart/centos7/
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
-<<<<<<< HEAD
-=======
     depends-on  : null
 
 # Openshift Images
