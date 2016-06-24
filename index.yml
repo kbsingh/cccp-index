@@ -30,7 +30,7 @@ Projects:
     app-id      : openshift
     job-id      : origin-base
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images/base
+    git-path    : images-cccp/base
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : null
@@ -39,7 +39,7 @@ Projects:
     app-id      : openshift
     job-id      : origin-haproxy-router-base
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images/router/haproxy-base
+    git-path    : images-cccp/router/haproxy-base
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -49,7 +49,7 @@ Projects:
     app-id      : openshift
     job-id      : origin-release
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images/release
+    git-path    : images-cccp/release
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -61,7 +61,7 @@ Projects:
     app-id      : openshift
     job-id      : origin-pod
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images/pod
+    git-path    : images-cccp/pod
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : null
@@ -70,7 +70,7 @@ Projects:
     app-id      : openshift
     job-id      : openvswitch
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images/openvswitch
+    git-path    : images-cccp/openvswitch
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : null
@@ -81,7 +81,7 @@ Projects:
     app-id      : openshift
     job-id      : origin
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images/origin
+    git-path    : images-cccp/origin
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -91,7 +91,7 @@ Projects:
     app-id      : openshift
     job-id      : origin-haproxy-router
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images/router/haproxy
+    git-path    : images-cccp/router/haproxy
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -102,7 +102,7 @@ Projects:
     app-id      : openshift
     job-id      : origin-keepalived-ipfailover
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images/ipfailover/keepalived
+    git-path    : images-cccp/ipfailover/keepalived
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -113,7 +113,7 @@ Projects:
     app-id      : openshift
     job-id      : origin-docker-registry
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images/dockerregistry
+    git-path    : images-cccp/dockerregistry
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -123,17 +123,7 @@ Projects:
     app-id      : openshift
     job-id      : origin-egress-router
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images/router/egress
-    git-branch  : master
-    notify-email: mohammed.zee1000@gmail.com
-    depends-on  : 
-        - openshift/origin-base
-
-  - id          : 12
-    app-id      : openshift
-    job-id      : origin-gitserver
-    git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : examples/gitserver
+    git-path    : images-cccp/router/egress
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -141,11 +131,22 @@ Projects:
 
 # Relies on openshift origin
 
-  - id          : 13
+  - id          : 12
     app-id      : openshift
     job-id      : origin-deployer
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images/deployer
+    git-path    : images-cccp/deployer
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+    depends-on  : 
+        - openshift/origin-base
+        - openshift/origin
+
+  - id          : 13
+    app-id      : openshift
+    job-id      : origin-recycler
+    git-url     : git://github.com/mohammedzee1000/origin
+    git-path    : images-cccp/recycler
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -154,9 +155,9 @@ Projects:
 
   - id          : 14
     app-id      : openshift
-    job-id      : origin-recycler
+    job-id      : origin-docker-builder
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images/recycler
+    git-path    : images-cccp/builder/docker/docker-builder
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -165,9 +166,9 @@ Projects:
 
   - id          : 15
     app-id      : openshift
-    job-id      : origin-docker-builder
+    job-id      : origin-sti-builder
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images/builder/docker/docker-builder
+    git-path    : images-cccp/builder/docker/sti-builder
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -176,9 +177,9 @@ Projects:
 
   - id          : 16
     app-id      : openshift
-    job-id      : origin-sti-builder
+    job-id      : origin-f5-router
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images/builder/docker/sti-builder
+    git-path    : images-cccp/router/f5
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -187,20 +188,9 @@ Projects:
 
   - id          : 17
     app-id      : openshift
-    job-id      : origin-f5-router
-    git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images/router/f5
-    git-branch  : master
-    notify-email: mohammed.zee1000@gmail.com
-    depends-on  : 
-        - openshift/origin-base
-        - openshift/origin
-
-  - id          : 18
-    app-id      : openshift
     job-id      : node
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images/node
+    git-path    : images-cccp/node
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -208,7 +198,7 @@ Projects:
         - openshift/origin
 
 # Atomic registry 
-  - id          : 19
+  - id          : 18
     app-id      : atomic-registry
     job-id      : c7-atomic-registry-quickstart
     git-url     : git://github.com/mohammedzee1000/CentOS-Dockerfiles
