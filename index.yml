@@ -34,8 +34,18 @@ Projects:
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : null
- 
+        
   - id          : 3
+    app-id      : openshift
+    job-id      : origin-custom-docker-builder
+    git-url     : git://github.com/mohammedzee1000/origin
+    git-path    : images-cccp/builder/docker/custom-docker
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+    depends-on  : 
+        - openshift/origin-base
+ 
+  - id          : 4
     app-id      : openshift
     job-id      : origin-haproxy-router-base
     git-url     : git://github.com/mohammedzee1000/origin
@@ -45,7 +55,7 @@ Projects:
     depends-on  : 
         - openshift/origin-base
 
-  - id          : 4
+  - id          : 5
     app-id      : openshift
     job-id      : origin-release
     git-url     : git://github.com/mohammedzee1000/origin
@@ -57,7 +67,7 @@ Projects:
 
 # * Helper Images with no reliance
 
-  - id          : 5
+  - id          : 6
     app-id      : openshift
     job-id      : origin-pod
     git-url     : git://github.com/mohammedzee1000/origin
@@ -66,7 +76,7 @@ Projects:
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : null
 
-  - id          : 6
+  - id          : 7
     app-id      : openshift
     job-id      : openvswitch
     git-url     : git://github.com/mohammedzee1000/origin
@@ -77,7 +87,7 @@ Projects:
 
 # * Relies on origin base
 
-  - id          : 7
+  - id          : 8
     app-id      : openshift
     job-id      : origin
     git-url     : git://github.com/mohammedzee1000/origin
@@ -87,7 +97,7 @@ Projects:
     depends-on  : 
         - openshift/origin-base
 
-  - id          : 8
+  - id          : 9
     app-id      : openshift
     job-id      : origin-haproxy-router
     git-url     : git://github.com/mohammedzee1000/origin
@@ -98,7 +108,7 @@ Projects:
         - openshift/origin-base
         - openshift/origin-haproxy-router-base
 
-  - id          : 9
+  - id          : 10
     app-id      : openshift
     job-id      : origin-keepalived-ipfailover
     git-url     : git://github.com/mohammedzee1000/origin
@@ -109,7 +119,7 @@ Projects:
         - openshift/origin-base
         - openshift/origin
 
-  - id          : 10
+  - id          : 11
     app-id      : openshift
     job-id      : origin-docker-registry
     git-url     : git://github.com/mohammedzee1000/origin
@@ -119,7 +129,7 @@ Projects:
     depends-on  : 
         - openshift/origin-base
 
-  - id          : 11
+  - id          : 12
     app-id      : openshift
     job-id      : origin-egress-router
     git-url     : git://github.com/mohammedzee1000/origin
@@ -131,7 +141,7 @@ Projects:
 
 # Relies on openshift origin
 
-  - id          : 12
+  - id          : 13
     app-id      : openshift
     job-id      : origin-deployer
     git-url     : git://github.com/mohammedzee1000/origin
@@ -142,7 +152,7 @@ Projects:
         - openshift/origin-base
         - openshift/origin
 
-  - id          : 13
+  - id          : 14
     app-id      : openshift
     job-id      : origin-recycler
     git-url     : git://github.com/mohammedzee1000/origin
@@ -153,7 +163,7 @@ Projects:
         - openshift/origin-base
         - openshift/origin
 
-  - id          : 14
+  - id          : 15
     app-id      : openshift
     job-id      : origin-docker-builder
     git-url     : git://github.com/mohammedzee1000/origin
@@ -164,7 +174,7 @@ Projects:
         - openshift/origin-base
         - openshift/origin
 
-  - id          : 15
+  - id          : 16
     app-id      : openshift
     job-id      : origin-sti-builder
     git-url     : git://github.com/mohammedzee1000/origin
@@ -175,7 +185,7 @@ Projects:
         - openshift/origin-base
         - openshift/origin
 
-  - id          : 16
+  - id          : 17
     app-id      : openshift
     job-id      : origin-f5-router
     git-url     : git://github.com/mohammedzee1000/origin
@@ -186,7 +196,7 @@ Projects:
         - openshift/origin-base
         - openshift/origin
 
-  - id          : 17
+  - id          : 18
     app-id      : openshift
     job-id      : node
     git-url     : git://github.com/mohammedzee1000/origin
@@ -198,7 +208,7 @@ Projects:
         - openshift/origin
 
 # Atomic registry 
-  - id          : 18
+  - id          : 19
     app-id      : atomic-registry
     job-id      : c7-atomic-registry-quickstart
     git-url     : git://github.com/mohammedzee1000/CentOS-Dockerfiles
