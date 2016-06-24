@@ -410,7 +410,6 @@ Projects:
     git-path    : centos-atomic-registry-quickstart/centos7/
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
->>>>>>> upstream/master
     depends-on  : 
         - openshift/origin-base
         - openshift/origin-pod
