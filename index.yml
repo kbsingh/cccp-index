@@ -42,3 +42,43 @@ Projects:
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : null
+
+  - id          : 4
+    app-id      : openshift
+    job-id      : origin-haproxy-router-base
+    git-url     : git://github.com/mohammedzee1000/origin
+    git-path    : images/router/haproxy-base
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+    depends-on  : 
+        - openshift/origin-base
+
+  - id          : 5
+    app-id      : openshift
+    job-id      : origin-release
+    git-url     : git://github.com/mohammedzee1000/origin
+    git-path    : images/release
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+    depends-on  : 
+        - openshift/origin-base
+
+# * Helper Images with no reliance
+
+  - id          : 6
+    app-id      : openshift
+    job-id      : origin-pod
+    git-url     : git://github.com/mohammedzee1000/origin
+    git-path    : images/pod
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+    depends-on  : null
+
+  - id          : 7
+    app-id      : openshift
+    job-id      : openvswitch
+    git-url     : git://github.com/mohammedzee1000/origin
+    git-path    : images/openvswitch
+    git-branch  : master
+    notify-email: mohammed.zee1000@gmail.com
+    depends-on  : null
