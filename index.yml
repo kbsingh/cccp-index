@@ -39,7 +39,7 @@ Projects:
     app-id      : openshift
     job-id      : origin-custom-docker-builder
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images-cccp/builder/docker/custom-docker
+    git-path    : images-cccp/builder/docker/custom-docker-builder/
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
