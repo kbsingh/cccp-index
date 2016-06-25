@@ -7,6 +7,7 @@ Projects:
     git-url     :
     git-path    :
     git-branch  :
+    dockerfile-name :
     notify-email:
     depends-on  : null 
 
@@ -18,6 +19,7 @@ Projects:
     job-id      : c7-cockpit-kubernetes
     git-url     : git://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : kubernetes-centos/centos7/
+    dockerfile-name: Dockerfile
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : null
@@ -231,5 +233,6 @@ Projects:
     git-url     : git://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : centos-atomic-registry-quickstart/centos7/
     git-branch  : master
+    dockerfile-name: Dockerfile
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : null
