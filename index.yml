@@ -31,7 +31,7 @@ Projects:
   - id          : 2
     app-id      : openshift
     job-id      : origin-base
-    git-url     : git://github.com/mohammedzee1000/origin
+    git-url     : git://github.com/tdawson/origin
     git-path    : images/base
     git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
@@ -41,7 +41,7 @@ Projects:
   - id          : 3
     app-id      : openshift
     job-id      : origin-custom-docker-builder
-    git-url     : git://github.com/mohammedzee1000/origin
+    git-url     : git://github.com/tdawson/origin
     git-path    : images/builder/docker/custom-docker-builder/
     git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
@@ -52,7 +52,7 @@ Projects:
   - id          : 4
     app-id      : openshift
     job-id      : origin-haproxy-router-base
-    git-url     : git://github.com/mohammedzee1000/origin
+    git-url     : git://github.com/tdawson/origin
     git-path    : images/router/haproxy-base
     git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
@@ -63,7 +63,7 @@ Projects:
   - id          : 5
     app-id      : openshift
     job-id      : origin-release
-    git-url     : git://github.com/mohammedzee1000/origin
+    git-url     : git://github.com/tdawson/origin
     git-path    : images/release
     git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
@@ -76,7 +76,7 @@ Projects:
   - id          : 6
     app-id      : openshift
     job-id      : origin-pod
-    git-url     : git://github.com/mohammedzee1000/origin
+    git-url     : git://github.com/tdawson/origin
     git-path    : images/pod
     git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
@@ -86,7 +86,7 @@ Projects:
   - id          : 7
     app-id      : openshift
     job-id      : openvswitch
-    git-url     : git://github.com/mohammedzee1000/origin
+    git-url     : git://github.com/tdawson/origin
     git-path    : images/openvswitch
     git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
@@ -98,7 +98,7 @@ Projects:
   - id          : 8
     app-id      : openshift
     job-id      : origin
-    git-url     : git://github.com/mohammedzee1000/origin
+    git-url     : git://github.com/tdawson/origin
     git-path    : images/origin
     git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
@@ -109,7 +109,7 @@ Projects:
   - id          : 9
     app-id      : openshift
     job-id      : origin-haproxy-router
-    git-url     : git://github.com/mohammedzee1000/origin
+    git-url     : git://github.com/tdawson/origin
     git-path    : images/router/haproxy
     git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
@@ -121,7 +121,7 @@ Projects:
   - id          : 10
     app-id      : openshift
     job-id      : origin-keepalived-ipfailover
-    git-url     : git://github.com/mohammedzee1000/origin
+    git-url     : git://github.com/tdawson/origin
     git-path    : images/ipfailover/keepalived
     git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
@@ -133,7 +133,7 @@ Projects:
   - id          : 11
     app-id      : openshift
     job-id      : origin-docker-registry
-    git-url     : git://github.com/mohammedzee1000/origin
+    git-url     : git://github.com/tdawson/origin
     git-path    : images/dockerregistry
     git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
@@ -144,7 +144,7 @@ Projects:
   - id          : 12
     app-id      : openshift
     job-id      : origin-egress-router
-    git-url     : git://github.com/mohammedzee1000/origin
+    git-url     : git://github.com/tdawson/origin
     git-path    : images/router/egress
     git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
@@ -157,7 +157,7 @@ Projects:
   - id          : 13
     app-id      : openshift
     job-id      : origin-deployer
-    git-url     : git://github.com/mohammedzee1000/origin
+    git-url     : git://github.com/tdawson/origin
     git-path    : images/deployer
     git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
@@ -169,7 +169,7 @@ Projects:
   - id          : 14
     app-id      : openshift
     job-id      : origin-recycler
-    git-url     : git://github.com/mohammedzee1000/origin
+    git-url     : git://github.com/tdawson/origin
     git-path    : images/recycler
     git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
@@ -181,7 +181,7 @@ Projects:
   - id          : 15
     app-id      : openshift
     job-id      : origin-docker-builder
-    git-url     : git://github.com/mohammedzee1000/origin
+    git-url     : git://github.com/tdawson/origin
     git-path    : images/builder/docker/docker-builder
     git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
@@ -193,7 +193,7 @@ Projects:
   - id          : 16
     app-id      : openshift
     job-id      : origin-sti-builder
-    git-url     : git://github.com/mohammedzee1000/origin
+    git-url     : git://github.com/tdawson/origin
     git-path    : images/builder/docker/sti-builder
     git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
@@ -205,7 +205,7 @@ Projects:
   - id          : 17
     app-id      : openshift
     job-id      : origin-f5-router
-    git-url     : git://github.com/mohammedzee1000/origin
+    git-url     : git://github.com/tdawson/origin
     git-path    : images/router/f5
     git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
@@ -217,7 +217,7 @@ Projects:
   - id          : 18
     app-id      : openshift
     job-id      : node
-    git-url     : git://github.com/mohammedzee1000/origin
+    git-url     : git://github.com/tdawson/origin
     git-path    : images/node
     git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
