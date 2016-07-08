@@ -32,8 +32,8 @@ Projects:
     app-id      : openshift
     job-id      : origin-base
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images-cccp/base
-    git-branch  : master
+    git-path    : images/base
+    git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : null
@@ -42,8 +42,8 @@ Projects:
     app-id      : openshift
     job-id      : origin-custom-docker-builder
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images-cccp/builder/docker/custom-docker-builder/
-    git-branch  : master
+    git-path    : images/builder/docker/custom-docker-builder/
+    git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -53,8 +53,8 @@ Projects:
     app-id      : openshift
     job-id      : origin-haproxy-router-base
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images-cccp/router/haproxy-base
-    git-branch  : master
+    git-path    : images/router/haproxy-base
+    git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -64,8 +64,8 @@ Projects:
     app-id      : openshift
     job-id      : origin-release
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images-cccp/release
-    git-branch  : master
+    git-path    : images/release
+    git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -77,8 +77,8 @@ Projects:
     app-id      : openshift
     job-id      : origin-pod
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images-cccp/pod
-    git-branch  : master
+    git-path    : images/pod
+    git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : null
@@ -87,8 +87,8 @@ Projects:
     app-id      : openshift
     job-id      : openvswitch
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images-cccp/openvswitch
-    git-branch  : master
+    git-path    : images/openvswitch
+    git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : null
@@ -99,8 +99,8 @@ Projects:
     app-id      : openshift
     job-id      : origin
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images-cccp/origin
-    git-branch  : master
+    git-path    : images/origin
+    git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -110,8 +110,8 @@ Projects:
     app-id      : openshift
     job-id      : origin-haproxy-router
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images-cccp/router/haproxy
-    git-branch  : master
+    git-path    : images/router/haproxy
+    git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -122,8 +122,8 @@ Projects:
     app-id      : openshift
     job-id      : origin-keepalived-ipfailover
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images-cccp/ipfailover/keepalived
-    git-branch  : master
+    git-path    : images/ipfailover/keepalived
+    git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -134,8 +134,8 @@ Projects:
     app-id      : openshift
     job-id      : origin-docker-registry
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images-cccp/dockerregistry
-    git-branch  : master
+    git-path    : images/dockerregistry
+    git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -145,8 +145,8 @@ Projects:
     app-id      : openshift
     job-id      : origin-egress-router
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images-cccp/router/egress
-    git-branch  : master
+    git-path    : images/router/egress
+    git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -158,8 +158,8 @@ Projects:
     app-id      : openshift
     job-id      : origin-deployer
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images-cccp/deployer
-    git-branch  : master
+    git-path    : images/deployer
+    git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -170,8 +170,8 @@ Projects:
     app-id      : openshift
     job-id      : origin-recycler
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images-cccp/recycler
-    git-branch  : master
+    git-path    : images/recycler
+    git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -182,8 +182,8 @@ Projects:
     app-id      : openshift
     job-id      : origin-docker-builder
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images-cccp/builder/docker/docker-builder
-    git-branch  : master
+    git-path    : images/builder/docker/docker-builder
+    git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -194,8 +194,8 @@ Projects:
     app-id      : openshift
     job-id      : origin-sti-builder
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images-cccp/builder/docker/sti-builder
-    git-branch  : master
+    git-path    : images/builder/docker/sti-builder
+    git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -206,8 +206,8 @@ Projects:
     app-id      : openshift
     job-id      : origin-f5-router
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images-cccp/router/f5
-    git-branch  : master
+    git-path    : images/router/f5
+    git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -218,8 +218,8 @@ Projects:
     app-id      : openshift
     job-id      : node
     git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images-cccp/node
-    git-branch  : master
+    git-path    : images/node
+    git-branch  : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
