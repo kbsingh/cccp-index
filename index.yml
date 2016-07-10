@@ -236,3 +236,35 @@ Projects:
     dockerfile-name: Dockerfile
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : null
+
+# CentOS Dockerfiles
+  - id          : 20
+    app-id      : centos
+    job-id      : django
+    git-url     : https://github.com/dharmit/CentOS-Dockerfiles
+    git-path    : Django/centos7
+    git-branch  : master
+    dockerfile-name: Dockerfile
+    notify-email: shahdharmitgmail.com
+    depends-on  : null
+
+  - id          : 21
+    app-id      : centos
+    job-id      : rabbitmq
+    git-url     : https://github.com/dharmit/CentOS-Dockerfiles
+    git-path    : rabbitmq/centos7
+    git-branch  : master
+    dockerfile-name: Dockerfile
+    notify-email: shahdharmitgmail.com
+    depends-on  : null
+
+  - id          : 22
+    app-id      : centos
+    job-id      : httpd
+    git-url     : https://github.com/dharmit/CentOS-Dockerfiles
+    git-path    : httpd/centos7
+    git-branch  : master
+    dockerfile-name: Dockerfile
+    notify-email: shahdharmitgmail.com
+    depends-on  : null
+
