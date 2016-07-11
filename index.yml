@@ -268,3 +268,52 @@ Projects:
     notify-email: shahdharmitgmail.com
     depends-on  : null
 
+  - id          : 23
+    app-id      : nulecule-library
+    job-id      : apache-centos7-atomicapp
+    git-url     : https://github.com/rtnpro/nulecule-library
+    git-path    : apache-centos7-atomicapp
+    git-branch  : cccp-index
+    dockerfile-name: Dockerfile
+    notify-email: rtnpro@gmail.com
+    depends-on  : null
+
+  - id          : 24
+    app-id      : nulecule-library
+    job-id      : etherpad-centos7-atomicapp
+    git-url     : https://github.com/rtnpro/nulecule-library
+    git-path    : etherpad-centos7-atomicapp
+    git-branch  : cccp-index
+    dockerfile-name: Dockerfile
+    notify-email: rtnpro@gmail.com
+    depends-on  : null
+
+  - id          : 25
+    app-id      : nulecule-library
+    job-id      : flask-redis-centos7-atomicapp
+    git-url     : https://github.com/rtnpro/nulecule-library
+    git-path    : flask-redis-centos7-atomicapp
+    git-branch  : cccp-index
+    dockerfile-name: Dockerfile
+    notify-email: rtnpro@gmail.com
+    depends-on  : null
+
+  - id          : 26
+    app-id      : nulecule-library
+    job-id      : gitlab-centos7-atomicapp
+    git-url     : https://github.com/rtnpro/nulecule-library
+    git-path    : gitlab-centos7-atomicapp
+    git-branch  : cccp-index
+    dockerfile-name: Dockerfile
+    notify-email: rtnpro@gmail.com
+    depends-on  : null
+
+  - id          : 27
+    app-id      : nulecule-library
+    job-id      : wordpress-centos7-atomicapp
+    git-url     : https://github.com/rtnpro/nulecule-library
+    git-path    : wordpress-centos7-atomicapp
+    git-branch  : cccp-index
+    dockerfile-name: Dockerfile
+    notify-email: rtnpro@gmail.com
+    depends-on  : null
