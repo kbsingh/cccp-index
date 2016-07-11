@@ -317,3 +317,25 @@ Projects:
     dockerfile-name: Dockerfile
     notify-email: rtnpro@gmail.com
     depends-on  : null
+  
+#bamachrn  
+
+  - id          : 28
+    app-id      : bamachrn
+    job-id      : nodeDocker
+    git-url     : https://github.com/bamachrn/nodeDocker
+    git-path    : docker
+    git-branch  : master
+    dockerfile-name: Dockerfile
+    notify-email: bamachrn@gmail.com
+    depends-on  : null
+
+  - id          : 29
+    app-id      : bamachrn
+    job-id      : nodeDocker
+    git-url     : https://github.com/bamachrn/EMS_JS
+    git-path    : /
+    git-branch  : master
+    dockerfile-name: Dockerfile
+    notify-email: bamachrn@gmail.com
+    depends-on  : null
