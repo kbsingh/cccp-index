@@ -241,7 +241,7 @@ Projects:
   - id          : 20
     app-id      : centos
     job-id      : django
-    git-url     : https://github.com/dharmit/CentOS-Dockerfiles
+    git-url     : git://github.com/dharmit/CentOS-Dockerfiles
     git-path    : Django/centos7
     git-branch  : master
     dockerfile-name: Dockerfile
@@ -251,7 +251,7 @@ Projects:
   - id          : 21
     app-id      : centos
     job-id      : rabbitmq
-    git-url     : https://github.com/dharmit/CentOS-Dockerfiles
+    git-url     : git://github.com/dharmit/CentOS-Dockerfiles
     git-path    : rabbitmq/centos7
     git-branch  : master
     dockerfile-name: Dockerfile
@@ -261,7 +261,7 @@ Projects:
   - id          : 22
     app-id      : centos
     job-id      : httpd
-    git-url     : https://github.com/dharmit/CentOS-Dockerfiles
+    git-url     : git://github.com/dharmit/CentOS-Dockerfiles
     git-path    : httpd/centos7
     git-branch  : master
     dockerfile-name: Dockerfile
@@ -271,7 +271,7 @@ Projects:
   - id          : 23
     app-id      : nulecule-library
     job-id      : apache-centos7-atomicapp
-    git-url     : https://github.com/rtnpro/nulecule-library
+    git-url     : git://github.com/rtnpro/nulecule-library
     git-path    : apache-centos7-atomicapp
     git-branch  : cccp-index
     dockerfile-name: Dockerfile
@@ -281,7 +281,7 @@ Projects:
   - id          : 24
     app-id      : nulecule-library
     job-id      : etherpad-centos7-atomicapp
-    git-url     : https://github.com/rtnpro/nulecule-library
+    git-url     : git://github.com/rtnpro/nulecule-library
     git-path    : etherpad-centos7-atomicapp
     git-branch  : cccp-index
     dockerfile-name: Dockerfile
@@ -291,7 +291,7 @@ Projects:
   - id          : 25
     app-id      : nulecule-library
     job-id      : flask-redis-centos7-atomicapp
-    git-url     : https://github.com/rtnpro/nulecule-library
+    git-url     : git://github.com/rtnpro/nulecule-library
     git-path    : flask-redis-centos7-atomicapp
     git-branch  : cccp-index
     dockerfile-name: Dockerfile
@@ -301,7 +301,7 @@ Projects:
   - id          : 26
     app-id      : nulecule-library
     job-id      : gitlab-centos7-atomicapp
-    git-url     : https://github.com/rtnpro/nulecule-library
+    git-url     : git://github.com/rtnpro/nulecule-library
     git-path    : gitlab-centos7-atomicapp
     git-branch  : cccp-index
     dockerfile-name: Dockerfile
@@ -311,7 +311,7 @@ Projects:
   - id          : 27
     app-id      : nulecule-library
     job-id      : wordpress-centos7-atomicapp
-    git-url     : https://github.com/rtnpro/nulecule-library
+    git-url     : git://github.com/rtnpro/nulecule-library
     git-path    : wordpress-centos7-atomicapp
     git-branch  : cccp-index
     dockerfile-name: Dockerfile
