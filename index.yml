@@ -322,7 +322,7 @@ Projects:
 
   - id          : 28
     app-id      : bamachrn
-    job-id      : nodeDocker
+    job-id      : nodedocker
     git-url     : git://github.com/bamachrn/nodeDocker
     git-path    : docker
     git-branch  : master
@@ -332,7 +332,7 @@ Projects:
 
   - id          : 29
     app-id      : bamachrn
-    job-id      : nodeDocker
+    job-id      : emsjs
     git-url     : git://github.com/bamachrn/EMS_JS
     git-path    : /
     git-branch  : master
