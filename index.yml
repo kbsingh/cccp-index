@@ -245,7 +245,7 @@ Projects:
     git-path    : Django/centos7
     git-branch  : master
     target-file : Dockerfile
-    notify-email: shahdharmitgmail.com
+    notify-email: shahdharmit@gmail.com
     depends-on  : null
 
   - id          : 21
@@ -255,7 +255,7 @@ Projects:
     git-path    : rabbitmq/centos7
     git-branch  : master
     target-file : Dockerfile
-    notify-email: shahdharmitgmail.com
+    notify-email: shahdharmit@gmail.com
     depends-on  : null
 
   - id          : 22
@@ -265,7 +265,7 @@ Projects:
     git-path    : httpd/centos7
     git-branch  : master
     target-file : Dockerfile
-    notify-email: shahdharmitgmail.com
+    notify-email: shahdharmit@gmail.com
     depends-on  : null
 
   - id          : 23
