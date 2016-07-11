@@ -7,7 +7,7 @@ Projects:
     git-url     :
     git-path    :
     git-branch  :
-    dockerfile-name :
+    target-file :
     notify-email:
     depends-on  : null 
 
@@ -19,7 +19,7 @@ Projects:
     job-id      : c7-cockpit-kubernetes
     git-url     : git://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : kubernetes-centos/centos7/
-    dockerfile-name: Dockerfile
+    target-file : Dockerfile
     git-branch  : master
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : null
@@ -34,7 +34,7 @@ Projects:
     git-url     : git://github.com/tdawson/origin
     git-path    : images/base
     git-branch  : 2016-centos-images
-    dockerfile-name: Dockerfile.centos7
+    target-file : Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : null
         
@@ -44,7 +44,7 @@ Projects:
     git-url     : git://github.com/tdawson/origin
     git-path    : images/builder/docker/custom-docker-builder/
     git-branch  : 2016-centos-images
-    dockerfile-name: Dockerfile.centos7
+    target-file : Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
         - openshift/origin-base
@@ -54,7 +54,7 @@ Projects:
     job-id      : origin-haproxy-router-base
     git-url     : git://github.com/tdawson/origin
     git-path    : images/router/haproxy-base
-    git-branch  : 2016-centos-images
+    target-file : 2016-centos-images
     dockerfile-name: Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
@@ -66,7 +66,7 @@ Projects:
     git-url     : git://github.com/tdawson/origin
     git-path    : images/release
     git-branch  : 2016-centos-images
-    dockerfile-name: Dockerfile.centos7
+    target-file : Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
         - openshift/origin-base
@@ -79,7 +79,7 @@ Projects:
     git-url     : git://github.com/tdawson/origin
     git-path    : images/pod
     git-branch  : 2016-centos-images
-    dockerfile-name: Dockerfile.centos7
+    target-file : Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : null
 
@@ -89,7 +89,7 @@ Projects:
     git-url     : git://github.com/tdawson/origin
     git-path    : images/openvswitch
     git-branch  : 2016-centos-images
-    dockerfile-name: Dockerfile.centos7
+    target-file : Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : null
 
@@ -101,7 +101,7 @@ Projects:
     git-url     : git://github.com/tdawson/origin
     git-path    : images/origin
     git-branch  : 2016-centos-images
-    dockerfile-name: Dockerfile.centos7
+    target-file : Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
         - openshift/origin-base
@@ -112,7 +112,7 @@ Projects:
     git-url     : git://github.com/tdawson/origin
     git-path    : images/router/haproxy
     git-branch  : 2016-centos-images
-    dockerfile-name: Dockerfile.centos7
+    target-file : Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
         - openshift/origin-base
@@ -124,7 +124,7 @@ Projects:
     git-url     : git://github.com/tdawson/origin
     git-path    : images/ipfailover/keepalived
     git-branch  : 2016-centos-images
-    dockerfile-name: Dockerfile.centos7
+    target-file : Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
         - openshift/origin-base
@@ -136,7 +136,7 @@ Projects:
     git-url     : git://github.com/tdawson/origin
     git-path    : images/dockerregistry
     git-branch  : 2016-centos-images
-    dockerfile-name: Dockerfile.centos7
+    target-file : Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
         - openshift/origin-base
@@ -147,7 +147,7 @@ Projects:
     git-url     : git://github.com/tdawson/origin
     git-path    : images/router/egress
     git-branch  : 2016-centos-images
-    dockerfile-name: Dockerfile.centos7
+    target-file : Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
         - openshift/origin-base
@@ -160,7 +160,7 @@ Projects:
     git-url     : git://github.com/tdawson/origin
     git-path    : images/deployer
     git-branch  : 2016-centos-images
-    dockerfile-name: Dockerfile.centos7
+    target-file : Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
         - openshift/origin-base
@@ -172,7 +172,7 @@ Projects:
     git-url     : git://github.com/tdawson/origin
     git-path    : images/recycler
     git-branch  : 2016-centos-images
-    dockerfile-name: Dockerfile.centos7
+    target-file : Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
         - openshift/origin-base
@@ -184,7 +184,7 @@ Projects:
     git-url     : git://github.com/tdawson/origin
     git-path    : images/builder/docker/docker-builder
     git-branch  : 2016-centos-images
-    dockerfile-name: Dockerfile.centos7
+    target-file : Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
         - openshift/origin-base
@@ -196,7 +196,7 @@ Projects:
     git-url     : git://github.com/tdawson/origin
     git-path    : images/builder/docker/sti-builder
     git-branch  : 2016-centos-images
-    dockerfile-name: Dockerfile.centos7
+    target-file : Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
         - openshift/origin-base
@@ -208,7 +208,7 @@ Projects:
     git-url     : git://github.com/tdawson/origin
     git-path    : images/router/f5
     git-branch  : 2016-centos-images
-    dockerfile-name: Dockerfile.centos7
+    target-file : Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
         - openshift/origin-base
@@ -220,7 +220,7 @@ Projects:
     git-url     : git://github.com/tdawson/origin
     git-path    : images/node
     git-branch  : 2016-centos-images
-    dockerfile-name: Dockerfile.centos7
+    target-file : Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
         - openshift/origin-base
@@ -233,7 +233,7 @@ Projects:
     git-url     : git://github.com/mohammedzee1000/CentOS-Dockerfiles
     git-path    : centos-atomic-registry-quickstart/centos7/
     git-branch  : master
-    dockerfile-name: Dockerfile
+    target-file : Dockerfile
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : null
 
@@ -244,7 +244,7 @@ Projects:
     git-url     : git://github.com/dharmit/CentOS-Dockerfiles
     git-path    : Django/centos7
     git-branch  : master
-    dockerfile-name: Dockerfile
+    target-file : Dockerfile
     notify-email: shahdharmitgmail.com
     depends-on  : null
 
@@ -254,7 +254,7 @@ Projects:
     git-url     : git://github.com/dharmit/CentOS-Dockerfiles
     git-path    : rabbitmq/centos7
     git-branch  : master
-    dockerfile-name: Dockerfile
+    target-file : Dockerfile
     notify-email: shahdharmitgmail.com
     depends-on  : null
 
@@ -264,7 +264,7 @@ Projects:
     git-url     : git://github.com/dharmit/CentOS-Dockerfiles
     git-path    : httpd/centos7
     git-branch  : master
-    dockerfile-name: Dockerfile
+    target-file : Dockerfile
     notify-email: shahdharmitgmail.com
     depends-on  : null
 
@@ -274,7 +274,7 @@ Projects:
     git-url     : git://github.com/rtnpro/nulecule-library
     git-path    : apache-centos7-atomicapp
     git-branch  : cccp-index
-    dockerfile-name: Dockerfile
+    target-file : Dockerfile
     notify-email: rtnpro@gmail.com
     depends-on  : null
 
@@ -284,7 +284,7 @@ Projects:
     git-url     : git://github.com/rtnpro/nulecule-library
     git-path    : etherpad-centos7-atomicapp
     git-branch  : cccp-index
-    dockerfile-name: Dockerfile
+    target-file : Dockerfile
     notify-email: rtnpro@gmail.com
     depends-on  : null
 
@@ -294,7 +294,7 @@ Projects:
     git-url     : git://github.com/rtnpro/nulecule-library
     git-path    : flask-redis-centos7-atomicapp
     git-branch  : cccp-index
-    dockerfile-name: Dockerfile
+    target-file : Dockerfile
     notify-email: rtnpro@gmail.com
     depends-on  : null
 
@@ -304,7 +304,7 @@ Projects:
     git-url     : git://github.com/rtnpro/nulecule-library
     git-path    : gitlab-centos7-atomicapp
     git-branch  : cccp-index
-    dockerfile-name: Dockerfile
+    target-file : Dockerfile
     notify-email: rtnpro@gmail.com
     depends-on  : null
 
@@ -314,7 +314,7 @@ Projects:
     git-url     : git://github.com/rtnpro/nulecule-library
     git-path    : wordpress-centos7-atomicapp
     git-branch  : cccp-index
-    dockerfile-name: Dockerfile
+    target-file : Dockerfile
     notify-email: rtnpro@gmail.com
     depends-on  : null
   
@@ -323,19 +323,19 @@ Projects:
   - id          : 28
     app-id      : bamachrn
     job-id      : nodeDocker
-    git-url     : https://github.com/bamachrn/nodeDocker
+    git-url     : git://github.com/bamachrn/nodeDocker
     git-path    : docker
     git-branch  : master
-    dockerfile-name: Dockerfile
+    target-file : Dockerfile
     notify-email: bamachrn@gmail.com
     depends-on  : null
 
   - id          : 29
     app-id      : bamachrn
     job-id      : nodeDocker
-    git-url     : https://github.com/bamachrn/EMS_JS
+    git-url     : git://github.com/bamachrn/EMS_JS
     git-path    : /
     git-branch  : master
-    dockerfile-name: Dockerfile
+    target-file : Dockerfile
     notify-email: bamachrn@gmail.com
     depends-on  : null
