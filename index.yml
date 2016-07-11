@@ -54,8 +54,8 @@ Projects:
     job-id      : origin-haproxy-router-base
     git-url     : git://github.com/tdawson/origin
     git-path    : images/router/haproxy-base
-    target-file : 2016-centos-images
-    dockerfile-name: Dockerfile.centos7
+    git-branch  : 2016-centos-images
+    target-file : Dockerfile.centos7
     notify-email: mohammed.zee1000@gmail.com
     depends-on  : 
         - openshift/origin-base
