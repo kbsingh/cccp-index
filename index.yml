@@ -346,7 +346,7 @@ Projects:
     app-id       : sclo
     job-id       : mysql-55-centos7
     git-url      : https://github.com/sclorg/mysql-container
-    git-path     : "5.5"
+    git-path     : 5.5/
     git-branch   : master
     target-file  : Dockerfile
     notify-email : mohammed.zee1000@gmail.com
@@ -356,7 +356,7 @@ Projects:
     app-id       : sclo
     job-id       : mysql-56-centos7
     git-url      : https://github.com/sclorg/mysql-container
-    git-path     : "5.6"
+    git-path     : 5.6/
     git-branch   : master
     target-file  : Dockerfile
     notify-email : mohammed.zee1000@gmail.com
@@ -366,7 +366,7 @@ Projects:
     app-id       : sclo
     job-id       : nginx-16-centos7
     git-url      : https://github.com/sclorg/nginx-container
-    git-path     : "1.6"
+    git-path     : 1.6/
     git-branch   : master
     target-file  : Dockerfile
     notify-email : mohammed.zee1000@gmail.com
@@ -376,7 +376,7 @@ Projects:
     app-id       : sclo
     job-id       : ror-41-centos7
     git-url      : https://github.com/sclorg/ror-container
-    git-path     : "4.1"
+    git-path     : 4.1/
     git-branch   : master
     target-file  : Dockerfile
     notify-email : mohammed.zee1000@gmail.com
@@ -386,7 +386,7 @@ Projects:
     app-id       : sclo
     job-id       : ror-42-centos7
     git-url      : https://github.com/sclorg/ror-container
-    git-path     : "4.2"
+    git-path     : 4.2/
     git-branch   : master
     target-file  : Dockerfile
     notify-email : mohammed.zee1000@gmail.com
@@ -426,7 +426,7 @@ Projects:
     app-id       : sclo
     job-id       : mariadb-100-centos7
     git-url      : https://github.com/sclorg/mariadb-container
-    git-path     : "10.0"
+    git-path     : 10.0/
     git-branch   : master
     target-file  : Dockerfile
     notify-email : mohammed.zee1000@gmail.com
@@ -436,7 +436,7 @@ Projects:
     app-id       : sclo
     job-id       : mariadb-101-centos7
     git-url      : https://github.com/sclorg/mariadb-container
-    git-path     : "10.1"
+    git-path     : 10.1/
     git-branch   : master
     target-file  : Dockerfile
     notify-email : mohammed.zee1000@gmail.com
@@ -446,7 +446,7 @@ Projects:
     app-id       : sclo
     job-id       : mongodb-24-centos7
     git-url      : https://github.com/sclorg/mongodb-container
-    git-path     : "2.4"
+    git-path     : 2.4/
     git-branch   : master
     target-file  : Dockerfile
     notify-email : mohammed.zee1000@gmail.com
@@ -456,7 +456,7 @@ Projects:
     app-id       : sclo
     job-id       : mongodb-26-centos7
     git-url      : https://github.com/sclorg/mongodb-container
-    git-path     : "2.6"
+    git-path     : 2.6/
     git-branch   : master
     target-file  : Dockerfile
     notify-email : mohammed.zee1000@gmail.com
@@ -466,7 +466,7 @@ Projects:
     app-id       : sclo
     job-id       : mongodb-32-centos7
     git-url      : https://github.com/sclorg/mongodb-container
-    git-path     : "3.2"
+    git-path     : 3.2/
     git-branch   : master
     target-file  : Dockerfile
     notify-email : mohammed.zee1000@gmail.com
@@ -476,7 +476,7 @@ Projects:
     app-id       : sclo
     job-id       : postgresql-92-centos7
     git-url      : https://github.com/sclorg/postgresql-container
-    git-path     : "9.2"
+    git-path     : 9.2/
     git-branch   : master
     target-file  : Dockerfile
     notify-email : mohammed.zee1000@gmail.com
@@ -486,7 +486,7 @@ Projects:
     app-id       : sclo
     job-id       : postgresql-94-centos7
     git-url      : https://github.com/sclorg/postgresql-container
-    git-path     : "9.4"
+    git-path     : 9.4/
     git-branch   : master
     target-file  : Dockerfile
     notify-email : mohammed.zee1000@gmail.com
@@ -496,7 +496,7 @@ Projects:
     app-id       : sclo
     job-id       : postgresql-95-centos7
     git-url      : https://github.com/sclorg/postgresql-container
-    git-path     : "9.5"
+    git-path     : 9.5/
     git-branch   : master
     target-file  : Dockerfile
     notify-email : mohammed.zee1000@gmail.com
