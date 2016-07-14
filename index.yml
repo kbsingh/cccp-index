@@ -404,7 +404,7 @@ Projects:
 
   - id           : 36
     app-id       : sclo
-    job-id       : ror-41-centos7
+    job-id       : devtoolset-4-perftools-centos7
     git-url      : https://github.com/sclorg/devtoolset-container
     git-path     : 4-perftools
     git-branch   : master
