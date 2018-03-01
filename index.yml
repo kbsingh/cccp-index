@@ -339,3 +339,15 @@ Projects:
     target-file : Dockerfile
     notify-email: bamachrn@gmail.com
     depends-on  : null
+    
+# minishift - dnsmasq
+
+  - id          : 30
+    appid       : minishift
+    job-id      : dnsmasq
+    git-url     : git://github.com/gbraad/dockerfile-dnsmasq
+    git-path    : /
+    git-branch  : master
+    target-file : Dockerfile
+    notify-email: me@gbraad.nl
+    depends-on  : null
